@@ -1,0 +1,12 @@
+INPUT	EXPECTED OUTPUT	OUTPUT
+CHOICE NUMBER 1: ADD A BOOK		
+"Game of thrones, Harry , 2005"	Book Title : Game of thrones  Author :Harry  Year of Publication: 2005	Book Title : Game of thrones  Author :Harry  Year of Publication: 2005
+"Flat Stanley,  Michean Hone, 2023"	Book Title : Flat Stanley  Author : Michean Hone Year of Publication: 2023	Book Title : Flat Stanley  Author : Michean Hone Year of Publication: 2023
+"Geronimo, Henry Rosen, 2007"	Book Title : Geronimo Author : Henry Rosen Year of Publication: 2007	Book Title : Geronimo Author : Henry Rosen Year of Publication: 2007
+"Lost in sea, Stanley Ponet, 2006"	Book Title : Lost in sea Author : Stanley Ponet Year of Publication: 2006	Book Title : Lost in sea Author : Stanley Ponet Year of Publication: 2006
+"America, George Harry, 2009"	Book Title : America Author : George Harry Year of Publication: 2009	Book Title : America Author : George Harry Year of Publication: 2009
+"Canada Hello, Austin Mcbroom, 2013"	Book Title : Canada Hello Author : Austin Mcbroom Year of Publication: 2013	Book Title : Canada Hello Author : Austin Mcbroom Year of Publication: 2013
+"Europe, Continent, 2002"	Book Title : Europe Author : Continent Year of Publication: 2002	Book Title : Europe Author : Continent Year of Publication: 2002
+"Australia, Sydney, 1996"	Book Title : Australia Author : Sydney Year of Publication: 1996	Book Title : Australia Author : Sydney Year of Publication: 1996
+"3 Musketeers,  Elon Musk, 2024"	Book Title : 3 Musketeers Author : Elon Musk Year of Publication: 2024	Book Title : 3 Musketeers Author : Elon Musk Year of Publication: 2024
+"Creed, Micheal Jordon, 2016"	Book Title : Creed Author : Micheal Jordon Year of Publication: 2016	Book Title : Creed Author : Micheal Jordon Year of Publication: 2016

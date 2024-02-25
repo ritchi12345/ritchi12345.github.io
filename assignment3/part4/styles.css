@@ -21,7 +21,6 @@ img {
   margin: 0 auto;
   padding: 0 20px;
   max-width: 980px;
-  display: flex;
 }
 
 nav {
@@ -30,6 +29,8 @@ nav {
 }
 
 nav ul {
+  display:flex;
+  justify-content: space-evenly;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -46,9 +47,20 @@ nav a {
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(150px,1fr));
+  grid-template-rows: repeat(auto-fill,minmax(150px, 1fr));
+  gap: 3px;
+
 }
 
 .feature {
     width: 200px;
+    float:left;
+    margin: 10px;
+}
+aside{
+  flex:1;
+}
+article{
+  flex: 1;
 }

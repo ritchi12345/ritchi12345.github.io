@@ -42,3 +42,4 @@ function result() {
     story.textContent = newStory;
     story.style.visibility = 'visible';
   }
+

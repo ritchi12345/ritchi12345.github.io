@@ -68,25 +68,6 @@ class Ball {
   }
 }
 
-window.addEventListener("keydown", (e) => {
-  for (const ball of balls) {
-    switch (e.key) {
-      case "a":
-        ball.x -= ball.velX;
-        break;
-      case "d":
-        ball.x += ball.velX;
-        break;
-      case "w":
-        ball.y -= ball.velY;
-        break;
-      case "s":
-        ball.y += ball.velY;
-        break;
-    }
-  }
-});
-
 const balls = [];
 
 while (balls.length < 25) {
@@ -117,5 +98,24 @@ function loop() {
 
   requestAnimationFrame(loop);
 }
+
+window.addEventListener("keydown", (e) => {
+  for (const ball of balls) {
+    switch (e.key) {
+      case "a":
+        ball.x -= ball.velX;
+        break;
+      case "d":
+        ball.x += ball.velX;
+        break;
+      case "w":
+        ball.y -= ball.velY;
+        break;
+      case "s":
+        ball.y += ball.velY;
+        break;
+    }
+  }
+});
 
 loop();

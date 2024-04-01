@@ -1,5 +1,4 @@
 // set up canvas
-
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
 
@@ -7,13 +6,11 @@ const width = (canvas.width = window.innerWidth);
 const height = (canvas.height = window.innerHeight);
 
 // function to generate random number
-
 function random(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 // function to generate random RGB color value
-
 function randomRGB() {
   return `rgb(${random(0, 255)},${random(0, 255)},${random(0, 255)})`;
 }
@@ -70,6 +67,25 @@ class Ball {
     }
   }
 }
+
+window.addEventListener("keydown", (e) => {
+  for (const ball of balls) {
+    switch (e.key) {
+      case "a":
+        ball.x -= ball.velX;
+        break;
+      case "d":
+        ball.x += ball.velX;
+        break;
+      case "w":
+        ball.y -= ball.velY;
+        break;
+      case "s":
+        ball.y += ball.velY;
+        break;
+    }
+  }
+});
 
 const balls = [];
 
